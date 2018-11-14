@@ -1,0 +1,120 @@
+*{
+
+}
+
+html,
+body{
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+
+}
+
+$color: #999;
+$font-size: 14px;
+$border-radius: 3px;
+$margin-bottom: 30px;
+
+.sign{
+  color: $color;
+  font-size: $font-size;
+  width: 350px;
+  border-radius: $border-radius;
+  display: inline-block;
+  text-align: center;
+
+
+  & img{
+      width: 175px;
+      height: 51px;
+      margin-top: 30px;
+      margin-bottom: $margin-bottom;
+    }
+
+  &__register{
+    position:relative;
+    width: 100%;
+  }
+
+    &__facebook{
+  background-color: #3897f0;
+  border-radius: $border-radius;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin-bottom: $margin-bottom;
+  width: 90%;
+  font-size: 16px;
+
+ }
+
+    & i{
+      position: absolute;
+      color: white;
+      top: 8%;
+      left: 22%;
+      font-size: 20px;
+    }
+
+    &__line{
+      display: flex;
+    }
+
+    & hr {
+      width: 120px;
+      height: 1px;
+      border: none;
+      background-color: #999;
+      margin-bottom: 10px;
+    }
+
+    &__camps{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 20px 0 20px;
+    }
+
+    &__form{
+      background-color: #FAFAFA;
+      height: 36px;
+      border-radius: $border-radius;
+      margin-bottom: 5px;
+      color: #999;
+      padding-left: 10px;
+      font-size: 14px;
+    }
+
+    &__up{
+      margin-top: $margin-bottom;
+      background-color: #3897f0;
+      border-radius: $border-radius;
+      border: none;
+      color: white;
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    &__terms{
+      width: 100%;
+      text-align: center;
+    }
+
+    &__account{
+      width: 100%;
+      text-align: center;
+      border-top: 1px solid #E6E6E6;
+      border-bottom: 1px solid #E6E6E6;
+      border-left: none;
+      border-right: none;
+    }
+
+    &__link{
+      text-decoration: none;
+      color: #3897f0;
+      margin-left: 5px;
+    }
+}

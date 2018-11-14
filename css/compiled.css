@@ -1,0 +1,82 @@
+html,
+body {
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  font-family: arial;
+  display: flex;
+  justify-content: center; }
+
+.sign {
+  color: #999;
+  font-size: 14px;
+  width: 350px;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center; }
+  .sign img {
+    width: 175px;
+    height: 51px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .sign__register {
+    position: relative;
+    width: 100%; }
+  .sign__facebook {
+    background-color: #3897f0;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 90%;
+    font-size: 16px; }
+  .sign i {
+    position: absolute;
+    color: white;
+    top: 8%;
+    left: 22%;
+    font-size: 20px; }
+  .sign__line {
+    display: flex; }
+  .sign hr {
+    width: 120px;
+    height: 1px;
+    border: none;
+    background-color: #999;
+    margin-bottom: 10px; }
+  .sign__camps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 0 20px; }
+  .sign__form {
+    background-color: #FAFAFA;
+    height: 36px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: #999;
+    padding-left: 10px;
+    font-size: 14px; }
+  .sign__up {
+    margin-top: 30px;
+    background-color: #3897f0;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px; }
+  .sign__terms {
+    width: 100%;
+    text-align: center; }
+  .sign__account {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    border-left: none;
+    border-right: none; }
+  .sign__link {
+    text-decoration: none;
+    color: #3897f0;
+    margin-left: 5px; }
