@@ -29,12 +29,13 @@ body {
     padding: 5px;
     margin-bottom: 30px;
     width: 90%;
-    font-size: 16px; }
+    font-size: 16px;
+  margin-left: 15px; }
   .sign i {
     position: absolute;
     color: white;
     top: 8%;
-    left: 22%;
+    left: 18%;
     font-size: 20px; }
   .sign__line {
     display: flex; }
@@ -44,11 +45,14 @@ body {
     border: none;
     background-color: #999;
     margin-bottom: 10px; }
-  .sign__camps {
+
+  #signup {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 20px 0 20px; }
+
+
   .sign__form {
     background-color: #FAFAFA;
     height: 36px;
@@ -57,7 +61,7 @@ body {
     color: #999;
     padding-left: 10px;
     font-size: 14px; }
-  .sign__up {
+    button {
     margin-top: 30px;
     background-color: #3897f0;
     border-radius: 3px;
@@ -66,6 +70,22 @@ body {
     width: 100%;
     padding: 5px;
     font-size: 16px; }
+
+    #mobile-error,
+    #name-error,
+    #username-error,
+    #pass-error {
+      color: red;
+      font-size: 13px;
+      text-transform: uppercase;
+      display: none;
+    }
+
+    input,
+    button {
+      display: block;
+    }
+
   .sign__terms {
     width: 100%;
     text-align: center; }

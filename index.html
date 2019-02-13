@@ -19,13 +19,19 @@
         <span>OR</span>
         <hr class="right">
       </div>
-      <div class="sign__camps">
-        <input class="sign__form" type="text" name="mobile" value="Mobile Number or Email">
-        <input class="sign__form" type="text" name="name" value="Full Name">
-        <input class="sign__form" type="text" name="user" value="Username">
-        <input class="sign__form" type="text" name="pass" value="Password">
-        <input class="sign__up" type="button" value="Sign up">
-      </div>
+
+      <form id="signup">
+        <input class="sign__form" id="mobile" type="text" placeholder="Mobile Number or Email">
+        <p id="mobile-error">You need to enter a Mobile number or Email.</p>
+        <input class="sign__form" id="name" type="text" placeholder="Full Name">
+        <p id="name-error">You need to enter a name.</p>
+        <input class="sign__form" id="username" type="text" placeholder="Username">
+        <p id="username-error">You need to enter a username.</p>
+        <input class="sign__form" id="pass" type="text" placeholder="Password">
+        <p id="pass-error">You need to enter a password.</p>
+        <button>Sign Up</button>
+      </form>
+
       <div class="sign__terms">
         <p>By signing up, you agree to our <br> <span><b>Terms & Privacy Policy</span</p>
       </div>
@@ -33,5 +39,7 @@
         <p>Have an account?<a  class="sign__link" href="#">Log in</a></p>
       </div>
     </div>
+    <!---<script src="./input.js"></script>--->
+    <script src="./submit.js"></script>
  </body>
 </html>
